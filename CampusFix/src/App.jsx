@@ -1,5 +1,6 @@
 import Navbar from "./components/navbar"
 import Hero from "./components/hero.jsx"
+import Foot from "./components/footer.jsx"
 
 const App = () => {
   return(
@@ -9,11 +10,13 @@ const App = () => {
       </div>
 
       <main className="px-10 py-10">
-        <Hero />
+        <section>
+          <Hero />
+        </section>
       </main>
 
       <footer>
-        
+        <Foot />
       </footer>
     </div>
   )
